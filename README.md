@@ -5,6 +5,8 @@ cookie.js
 
 **a tiny but powerfull and easy to use cookie.js**
 
+**only 只有 472 Byte**
+
 
 by wushufen
 wusfun@foxmail.com
@@ -17,7 +19,7 @@ update 2014.06.12
 
 ### set
 ```javascript
-cookie('name', 'value', {expires: ms, domain: '', path: '/', secure: true});
+cookie('name', 'value', {expires: ms, path: '', domain: '', secure: true}); //options
 ```
 ```javascript
 cookie('name', 'value'); //set
