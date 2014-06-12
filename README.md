@@ -35,7 +35,7 @@ cookie(null);            //delete all
 
 ### get
 ```javascript
-cookie();                //get all {}
+cookie()                 //get all {}
 ```
 ```javascript
 cookie().name            //get
@@ -44,5 +44,5 @@ cookie().name            //get
 cookie()['name']         //get
 ```
 ```javascript
-cookie('name');          //get
+cookie('name')           //get
 ```
