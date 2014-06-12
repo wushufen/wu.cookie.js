@@ -5,7 +5,7 @@ cookie.js
 
 **a tiny but powerfull and easy to use cookie.js**
 
-**only 只有 472 Byte**
+**只有 only 0.5k**
 
 
 by wushufen
