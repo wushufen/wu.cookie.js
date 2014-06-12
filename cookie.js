@@ -8,10 +8,10 @@ cookie('name', 'value', {expires: ms, domain: '', path: '/', secure: true});
 cookie('name', 'value'); //set
 cookie('name', null);    //delete
 cookie(null);            //delete all
-cookie();                //get all {}
+cookie()                 //get all {}
 cookie().name            //get
 cookie()['name']         //get
-cookie('name');          //get
+cookie('name')           //get
 */
 function cookie(name, value, options){
 	options = options||{};
