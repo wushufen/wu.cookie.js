@@ -51,6 +51,6 @@ function cookie(name, value, options){
 	/*log*/
 	// console.log(cookies, document.cookie);
 
-	/*return: obj=cookies(), value=cookie('name')*/
-	return name===undefined? cookies: cookies[name];
+	/*return: value=cookie('name'), obj=cookies()*/
+	return name? cookies[name]: cookies;
 }
