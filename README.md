@@ -15,7 +15,7 @@ update 2014.06.12
 
 
 
-## Usage
+## Usage 使用方法
 
 ### set
 ```javascript
