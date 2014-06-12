@@ -32,7 +32,7 @@ function cookie(name, value, options){
 			var date = new Date;
 			date.setTime(date.getTime() + options.expires);
 		}
-		document.cookie = [name + '=' + value,
+		document.cookie = [name + '=' + escape(value),
 			options.expires?';expires=' + date.toUTCString() :'',
 			options.path?   ';path=' + options.path :'',
 			options.domain? ';domain=' + options.domain :'',
@@ -45,7 +45,7 @@ function cookie(name, value, options){
 	nvs = document.cookie? document.cookie.split('; ') :[];
 	for(i in nvs){
 		var nv = nvs[i].split('='), n = nv[0], v = nv[1];
-		cookies[n] = v;
+		cookies[n] = unescape(v);
 	}
 
 	/*log*/
