@@ -21,8 +21,8 @@ function cookie(name, value, options){
 
 	/*delete all: cookie(null)*/
 	if(name===null){
-		for(i in cookie()){
-			cookie(i,null);
+		for(var i in cookie()){
+			cookie(i,null,options);
 		}
 	}
 
@@ -42,8 +42,8 @@ function cookie(name, value, options){
 
 	/*get: cookie('name'), cookie(), cookie().name, cookie()['name']*/
 	var cookies = {},
-	nvs = document.cookie? document.cookie.split('; ') :[];
-	for(i in nvs){
+		nvs = document.cookie? document.cookie.split('; '):[];
+	for(var i in nvs){
 		var nv = nvs[i].split('='), n = nv[0], v = nv[1];
 		cookies[n] = unescape(v);
 	}
