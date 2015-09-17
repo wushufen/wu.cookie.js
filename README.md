@@ -19,15 +19,15 @@ update 2014.06.12
 
 ### set
 ```javascript
+wui.cookie('name', 'value'); //set
+```
+```javascript
 wui.cookie('name', 'value', {
 	expires: ms,
 	path: '',
 	domain: '',
 	secure: true
 }); //options
-```
-```javascript
-wui.cookie('name', 'value'); //set
 ```
 
 ### delete
