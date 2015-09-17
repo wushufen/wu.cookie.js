@@ -1,9 +1,9 @@
-cookie.js
+wui.cookie.js
 =========
 
-**一个极小但强大并容易使用的cookie.js**
+**一个极小但强大并容易使用的wui.cookie.js**
 
-**a tiny but powerfull and easy to use cookie.js**
+**a tiny but powerfull and easy to use wui.cookie.js**
 
 **只有 only 0.5k**
 
@@ -19,30 +19,30 @@ update 2014.06.12
 
 ### set
 ```javascript
-cookie('name', 'value', {expires: ms, path: '', domain: '', secure: true}); //options
+wui.cookie('name', 'value', {expires: ms, path: '', domain: '', secure: true}); //options
 ```
 ```javascript
-cookie('name', 'value'); //set
+wui.cookie('name', 'value'); //set
 ```
 
 ### delete
 ```javascript
-cookie('name', null);    //delete
+wui.cookie('name', null);    //delete
 ```
 ```javascript
-cookie(null);            //delete all
+wui.cookie(null);            //delete all
 ```
 
 ### get
 ```javascript
-cookie()                 //get all {}
+wui.cookie()                 //get all {}
 ```
 ```javascript
-cookie().name            //get
+wui.cookie().name            //get
 ```
 ```javascript
-cookie()['name']         //get
+wui.cookie()['name']         //get
 ```
 ```javascript
-cookie('name')           //get
+wui.cookie('name')           //get
 ```
