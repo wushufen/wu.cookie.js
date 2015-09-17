@@ -1,4 +1,5 @@
 /*!
+https://github.com/wusfen/wui.cookie.js
 by wushufen
 wusfun@foxmail.com
 2014.01.05
