@@ -19,7 +19,12 @@ update 2014.06.12
 
 ### set
 ```javascript
-wui.cookie('name', 'value', {expires: ms, path: '', domain: '', secure: true}); //options
+wui.cookie('name', 'value', {
+	expires: ms,
+	path: '',
+	domain: '',
+	secure: true
+}); //options
 ```
 ```javascript
 wui.cookie('name', 'value'); //set
