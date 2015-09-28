@@ -1,17 +1,12 @@
 wui.cookie.js
 =========
 
-**一个极小但强大并容易使用的wui.cookie.js**
-
-**a tiny but powerfull and easy to use wui.cookie.js**
-
-**只有 only 0.5k**
-
+**一个小巧易用的 cookie 插件**
 
 by wushufen
 wusfun@foxmail.com
 2014.01.05
-update 2014.06.12
+update 2015.09.28
 
 
 
@@ -23,7 +18,7 @@ wui.cookie('name', 'value'); //set
 ```
 ```javascript
 wui.cookie('name', 'value', {
-	expires: ms,
+	expires: day,
 	path: '',
 	domain: '',
 	secure: true

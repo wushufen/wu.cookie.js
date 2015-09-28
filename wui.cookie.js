@@ -7,7 +7,7 @@ wusfun@foxmail.com
 2014.01.05
 update 2015.08.26
 
-wui.cookie('name', 'value', {expires: ms, domain: '', path: '/', secure: true});
+wui.cookie('name', 'value', {expires: day, domain: '', path: '/', secure: true});
 wui.cookie('name', 'value'); //set
 wui.cookie('name', null);    //delete
 wui.cookie(null);            //delete all
@@ -35,7 +35,7 @@ wui.cookie('name')           //get
 		if (value !== undefined) {
 			if (options.expires) {
 				var date = new Date;
-				date.setTime(date.getTime() + options.expires);
+				date.setDate(date.getDate() + options.expires);
 			}
 			document.cookie = [name + '=' + escape(value),
 				options.expires ? ';expires=' + date.toUTCString() : '',
