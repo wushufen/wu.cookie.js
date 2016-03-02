@@ -1,4 +1,4 @@
-wui.cookie.js
+wu.cookie.js
 =========
 
 **一个小巧易用的 cookie 插件**
@@ -14,10 +14,10 @@ update 2015.09.28
 
 ### set
 ```javascript
-wui.cookie('name', 'value'); //set
+wu.cookie('name', 'value'); //set
 ```
 ```javascript
-wui.cookie('name', 'value', {
+wu.cookie('name', 'value', {
 	expires: day,
 	path: '',
 	domain: '',
@@ -27,22 +27,22 @@ wui.cookie('name', 'value', {
 
 ### delete
 ```javascript
-wui.cookie('name', null);    //delete
+wu.cookie('name', null);    //delete
 ```
 ```javascript
-wui.cookie(null);            //delete all
+wu.cookie(null);            //delete all
 ```
 
 ### get
 ```javascript
-wui.cookie()                 //get all {}
+wu.cookie()                 //get all {}
 ```
 ```javascript
-wui.cookie().name            //get
+wu.cookie().name            //get
 ```
 ```javascript
-wui.cookie()['name']         //get
+wu.cookie()['name']         //get
 ```
 ```javascript
-wui.cookie('name')           //get
+wu.cookie('name')           //get
 ```
