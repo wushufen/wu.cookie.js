@@ -1,5 +1,5 @@
 /*!
-https://github.com/wusfen/wui.cookie.js
+https://github.com/wusfen/wu.cookie.js
 */
 /*
 by wushufen
@@ -7,16 +7,16 @@ wusfun@foxmail.com
 2014.01.05
 update 2015.08.26
 
-wui.cookie('name', 'value', {expires: day, domain: '', path: '/', secure: true});
-wui.cookie('name', 'value'); //set
-wui.cookie('name', null);    //delete
-wui.cookie(null);            //delete all
-wui.cookie()                 //get all {}
-wui.cookie().name            //get
-wui.cookie()['name']         //get
-wui.cookie('name')           //get
+wu.cookie('name', 'value', {expires: day, domain: '', path: '/', secure: true});
+wu.cookie('name', 'value'); //set
+wu.cookie('name', null);    //delete
+wu.cookie(null);            //delete all
+wu.cookie()                 //get all {}
+wu.cookie().name            //get
+wu.cookie()['name']         //get
+wu.cookie('name')           //get
 */
-+ function(wui) {
++ function(wu) {
 
 	function cookie(name, value, options) {
 		options = options || {};
@@ -62,5 +62,6 @@ wui.cookie('name')           //get
 		return name ? cookies[name] : cookies;
 	}
 
-	wui.cookie = cookie;
-}(this.wui || (wui = {}));
+	wu.cookie = cookie;
+}(this.wu || (wu = {}));
+
