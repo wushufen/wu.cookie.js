@@ -64,4 +64,3 @@ wu.cookie('name')           //get
 
 	wu.cookie = cookie;
 }(this.wu || (wu = {}));
-
